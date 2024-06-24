@@ -1,0 +1,102 @@
+@font-face{
+    font-family: montserrat;
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+
+h3::first-letter{
+    font: 900;
+    font-size: 30px;
+    color: crimson;
+}
+h3:hover::first-letter{
+    color: teal;
+}
+
+li{
+    font-weight: bold;
+}
+
+li:first-child::first-letter{
+    font: 900;
+    color: crimson;
+    font-size: 30px;
+    text-decoration: overline;
+}
+
+li:hover:first-letter{
+    color: aqua;
+}
+
+li:nth-child(2)::first-letter{
+    font: 900;
+    color: crimson;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+li:last-child::first-letter{
+    font: 900;
+    color: crimson;
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+li:hover:last-child::first-letter{
+    color: greenyellow;
+}
+
+li:last-child{
+    text-decoration: line-through;
+}
+
+text ::first-letter{
+    font: 900;
+    color: crimson;
+}
+
+.text__greycolor{
+    font-size: large;
+    font-weight: bold;
+    color: #5c5961;
+}
+
+
+
+.text__greycolor-none{
+    font-size: small;
+    font-weight: bold;
+}
+
+span :nth-child(1){
+    color: #5c5961;
+    text-align: right;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.text__fett{
+    font-weight: 900;
+    font-size: larger;
+}
+
+.text__fett span{
+    color: blueviolet;
+}
+
+.text__fett span:hover{
+    color: hotpink;
+}
+
+.text__small{
+    font-weight: 900;
+    font-size: small;
+}
+
+.text__small span{
+    color: blueviolet;
+}
+
+.text__small span:hover{
+    color: hotpink;
+}

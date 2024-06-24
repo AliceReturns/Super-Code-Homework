@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-family: "Arial";
+}
+
+div{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.bg-color{
+    background-color: yellow;
+    background-position: center;
+    background-size: contain;
+}
+
+.bg-image{
+    background-image: url(https://images.deepai.org/machine-learning-models/fa28be56832347c58cb6fdb43200292c/dragon.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.gradient{
+    background: linear-gradient(0deg, rgba(195,34,187,1) 0%, rgba(253,187,45,1) 100%);
+    background-position: center;
+    background-size: contain;
+}

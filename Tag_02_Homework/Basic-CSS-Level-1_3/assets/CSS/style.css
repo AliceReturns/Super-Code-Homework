@@ -1,0 +1,28 @@
+nav{
+    background-color: pink;
+    color: plum;
+}
+
+a{
+    margin-left: 50px;
+}
+
+h2 {
+    color:mediumvioletred;
+}
+
+div:nth-of-type(1){
+    color: pink;
+}
+
+div:nth-of-type(2){
+    color: pink;
+}
+
+div:nth-of-type(3){
+    color: pink;
+}
+
+span{
+    color: black;
+}

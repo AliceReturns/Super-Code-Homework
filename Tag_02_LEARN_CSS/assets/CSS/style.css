@@ -1,0 +1,43 @@
+h1{
+    color: blueviolet;
+    font-size: 50px;
+}
+main{
+    background-color: hotpink;
+}
+
+div:nth-of-type(1) h2{
+
+color: rgb(43, 162, 226);
+
+}
+
+
+h3 {
+    color: blueviolet;
+    background-color: rgb(122, 181, 49);
+    font-family: serif;
+}
+
+section>ul>li>span{
+    color: blueviolet;
+}
+/*oder direkt mit span ansprechen*/
+
+div:nth-of-type(1) {
+    background-color: deeppink;
+}
+
+div:nth-of-type(1) a:nth-child(3) {
+    color: violet;
+}
+
+div:nth-of-type(1) a:nth-child(3) a:active{
+    background-color: rgb(59, 217, 1);
+}
+
+div:nth-of-type(1) a:nth-child(5) a:hover {
+color: rgb(53, 207, 18);
+background-color: rgb(244, 201, 45);
+
+}

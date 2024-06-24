@@ -1,0 +1,10 @@
+p{
+    color: white;
+    background-color:  blueviolet;
+    width: 200px;
+    margin: 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border: solid 25px black;
+}

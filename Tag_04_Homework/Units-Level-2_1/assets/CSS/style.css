@@ -1,0 +1,49 @@
+html{
+font-family: sans-serif;}
+
+section{
+    border: solid black 5px;
+}
+
+li{
+    line-height: 1.5em;
+}
+
+ul{
+    padding-inline-start: 1.2em;
+}
+
+.dog{
+    list-style: 0.8em;
+    line-height: 1.5em;
+    list-style: element(🐶);
+}
+
+.cat{
+    width: 0.8em;
+    line-height: 1.5em;
+    list-style 
+}
+
+.parrot{
+    width: 0.8em;
+    line-height: 1.5em;
+    list-style 
+}
+
+.snake{
+    width: 0.8em;
+    line-height: 1.5em;
+    list-style 
+}
+
+.lizzard{
+    width: 0.8em;
+    line-height: 1.5em;
+    list-style: url("🦎")
+}
+
+.ul{
+    padding-inline-start: 1.2em; 
+}
+

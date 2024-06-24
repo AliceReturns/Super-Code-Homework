@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selektoren</title>
+
+    <style>
+
+            /*Typselektor*/
+
+        header{
+            text-align: center;
+            background-color: blueviolet;
+            color: white;
+        }
+            /*Gruppierte Selektor*/
+
+        h3,a{
+
+            color: blueviolet;
+        }
+            /*Indirekter Nachbar*/
+
+        h4~p{
+            color: darkmagenta;
+        }
+
+        header h1, p{
+            color: rgb(205, 22, 165);s
+        }
+
+        h5>p {
+            
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+
+        <h1>Selektoren</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, alias maxime illo cum facilis harum impedit aut earum numquam veritatis fugit dignissimos a suscipit eius id, dolore laboriosam corporis. Eos!</p>
+
+    </header>
+
+    <div>
+
+        <h3>Gruppierte Selektoren - getrennt durch ein ","</h3>
+        <a href="google.de">Google</a>
+
+    </div>
+
+    <div>
+
+        <h4>Indirekte Nachbarn ~ Selektor</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nulla distinctio cumque animi possimus, rerum, tempore tempora illum neque voluptate natus. In quidem similique accusamus repellendus repudiandae eum dignissimos cumque!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia cum accusantium mollitia earum laudantium dolore distinctio quod nesciunt at provident? Officiis dolor asperiores mollitia iure natus accusantium placeat est suscipit?</p>
+   
+    </div>
+    
+    <div>
+
+        <h5>Kind > Selektor</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa explicabo quibusdam commodi beatae quaerat similique, provident ut consequatur accusantium dignissimos architecto atque! Facilis dolorum illo non, ratione quo veritatis!</p>
+        <article></article>
+    </div>
+
+    
+</body>
+</html>

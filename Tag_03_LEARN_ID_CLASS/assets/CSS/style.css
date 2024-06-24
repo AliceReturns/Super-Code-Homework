@@ -1,0 +1,35 @@
+html{
+    color: blue;
+    background-color: lime;
+}
+
+.card__footer--highlight{
+    background-color: lime;
+}
+
+
+.card__text--hover: :hover{
+    color: var(--font-color);
+    
+}
+
+span{
+    font-weight: 900;
+    color: blue;
+}
+
+.card{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.p-bgPurple{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+}
+
+
+.p-fontSize{
+    font-size: 20px;
+}
