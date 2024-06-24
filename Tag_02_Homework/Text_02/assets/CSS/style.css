@@ -1,27 +1,33 @@
 @font-face{
     font-family: "ChelseaMarket";
-    src: url("../fonts/ChelseaMarket-Regular.ttf") format("ttf");
+    src: url("../fonts/ChelseaMarket-Regular.ttf");
     font-weight: 300;
 }
 
 @font-face{
     font-family: "Fredoka";
-    src: url("../fonts/Fredoka-VariableFont_wdth\,wght.ttf") format("ttf");
+    src: url("../fonts/Fredoka-VariableFont_wdth\,wght.ttf");
 }
 
 @font-face{
     font-family: "Parcifico";
-    src: url("../fonts/Pacifico-Regular.ttf") format("ttf");
+    src: url("../fonts/Pacifico-Regular.ttf");
 }
 
 @font-face{
     font-family: "PressStart2P";
-    src: url("../fonts/PressStart2P-Regular.ttf") format("ttf");
+    src: url("../fonts/PressStart2P-Regular.ttf");
+}
+
+body{
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: xx-large;
 }
 
 h1{
     font-size: xx-large;
-    background-color: greenyellow;
+    background-color: rgb(82, 255, 47);
     line-height: 100px;
     text-align: center;
     font-family: "PressStart2P";
@@ -30,18 +36,28 @@ h1{
 p{
     font-size: small;
     text-align: left;
-    font-family: "Fredoka";
+    font-family: "Parcifico";
 }
 
 em{
     font-size: small;
     text-align: left;
-    font-family: "Parcifico";
-    text-shadow: ;
+    font-family: "Fredoka";
+    font-weight: bold;
+    text-shadow: 2px -2px red;
+}
+
+strong{
+    font-family: "Fredoka";
+    font-weight: lighter;
+    font-size: smaller;
 }
 
 a{
     font-size: small;
     text-align: left;
-    font-family: "Parcifico";
+    font-family: "Fredoka";
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
