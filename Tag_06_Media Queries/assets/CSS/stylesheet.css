@@ -80,13 +80,18 @@ a:hover{
     color: white;
 }
 
-.HeroButton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-top: 0.5em;
-    color: white;
+.burger-wrapper {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .burger {
+    background-color: black;
+    height: 5px;
+    width: 30px;
+    margin: 2px;
+    border-radius: 10px;
 }
 
 h1{
@@ -100,19 +105,37 @@ p{
     font-size: 12px;
 }
 
-button{
-    background-color: none;
-    background: none;
-    color: white;
-    border: 2px solid white;
-    font-size: smaller;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    padding: 1em 3.5em 1em 3.5em;
+
+div:nth-of-type(4){
+    display: flex;
+    justify-content: space-around;
 }
 
-button:hover{
+.HeroButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.Button1{
+    background-color: none;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 32px;
+    width: 180px;
+    margin: 5px;
+}
+
+.Button1:hover{
     background-color: white;
     color: black;
 }
@@ -121,13 +144,15 @@ button:hover{
     background-color: none;
     background: rgb(152, 35, 255);
     border: 2px solid rgb(152, 35, 255);
+    border: none;
     color: rgb(255, 255, 255);
     font-size: smaller;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
-    padding: 1em 3.5em 1em 3.5em;
-    border: none;
+    padding: 15px 32px;
+    width: 180px;
+    margin: 5px;
 }
 
 .Button2:hover{
@@ -136,5 +161,84 @@ button:hover{
     color: rgb(255, 255, 255);
 }
 
+/*--MAIN--*/
+
+main div{
+    background-color: white;
+    margin-top: 50vh;
+    padding-top: 30em;
+    padding-bottom: 10em;
+}
+
 /*--MEDIA QUERIES--*/
+
+ /* For I-Pad: */
+
+@media only screen and (max-width: 922px){
+    h1{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 922px){
+    .Button1{
+    padding: 10px 27px;
+    width: 170px;
+    }
+}
+@media only screen and (max-width: 922px){
+    .Button2{
+    padding: 10px 27px;
+    width: 170px;
+    }
+}
+@media only screen and (max-width: 922px){
+    .Navigation{
+        display: none;
+    }
+}
+@media only screen and (max-width: 922px){
+    main div{
+        padding-top: 10em;
+        margin-top: 70vh;
+    }
+}
+
+ /* For Mobile: */
+
+ @media only screen and (max-width: 576px){
+    h1{
+        font-size: 20px;
+    }
+}
+ @media only screen and (max-width: 576px){
+    p{
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .Button1{
+    padding: 10px 22px;
+    width: 155px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .Button2{
+     padding: 10px 22px;
+    width: 155px;
+    }
+}
+@media only screen and (max-width: 922px){
+    .Navigation{
+        display: none;
+    }
+}
+
+ /* For Desktop: */
+
+@media only screen and (min-width: 922px){
+    .burger-wrapper, .burger{
+        display: none;
+    }
+}
 
