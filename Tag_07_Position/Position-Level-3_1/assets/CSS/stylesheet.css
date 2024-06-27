@@ -1,10 +1,19 @@
+@font-face{
+    font-family: "Monoton";
+    src: url(../fonts/Monoton-Regular.ttf);
+}
+@font-face{
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Ubuntu";
 }
 
 body{
@@ -23,7 +32,13 @@ nav{
     margin-top: 1em;
 }
 
+.Login{
+    display: flex;
+    flex-direction: row;
+}
+
 a{
+    font-family: "Ubuntu";
     padding-left: 3em;
     text-decoration: none;
     color: bisque;
@@ -54,16 +69,18 @@ section{
 .IMG{
     display: flex;
     flex-direction: row;
-    position: relative;
-    left: 5em;
+    position: absolute;
+    left: 40rem;
 }
 
 img{
-    padding-right: 2em;
+    padding-right: 1em;
 }
 
 h1{
     font-size: 50px;
+    font-weight: bolder;
+    margin-right: 14em;
 }
 
 p{
@@ -78,7 +95,8 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: right;
-    position: relative;
-    right: 10em;
-    padding-right: 2rem;
+    margin-top: 12em;
+    padding-right: 7em;
 }
+
+
