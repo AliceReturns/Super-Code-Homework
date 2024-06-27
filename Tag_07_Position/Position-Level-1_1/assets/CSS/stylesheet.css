@@ -1,0 +1,48 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face{
+    font-family: "PoppinsBlack";
+    src: url("../fonts/Poppins-Black.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Poppins";
+}
+
+body{
+    background-image: url("/Tag_07_Position/Position-Level-1_1/assets/img/pexels-catscoming-920220.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:contain;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    color: white;
+    align-items: flex-end;
+    position: relative;
+    top: 150px;
+    right: 160px;
+}
+
+h1{
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: bolder;
+}
+
+h2{
+    margin-top: 1em;
+}
