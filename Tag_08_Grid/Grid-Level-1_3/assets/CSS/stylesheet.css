@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    background-color: red;
+    color: red;
+}
+.box2{
+    background-color: rgb(196, 3, 3);
+    color: rgb(196, 3, 3);
+}
+.box3{
+    background-color: rgb(121, 4, 4);
+    color: rgb(121, 4, 4);
+}
+.box4{
+    background-color: rgb(71, 0, 0);
+    color: rgb(71, 0, 0);
+}
+
+.Grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.Grid{
+    grid-template-areas: 
+    "Header Header Header Header"
+    "Sidebar Main Main Main"
+    "Footer Footer Footer Footer"
+}
+
+.Grid{
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.box1 {
+    grid-area: Header;  
+   
+}
+
+.box2 {
+    grid-area: Sidebar;  
+    
+}
+
+.box3 {
+    grid-area: Main;  
+    
+}
+
+.box4 {
+    grid-area: Footer;  
+    
+}
