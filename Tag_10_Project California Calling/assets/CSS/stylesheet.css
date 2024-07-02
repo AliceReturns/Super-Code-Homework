@@ -17,11 +17,17 @@ html {
   font-family: "WorkSans";
 }
 
+body {
+  margin: 5em;
+}
+
 header {
   text-align: center;
   color: white;
   background-color: black;
   padding-top: 10rem;
+  padding-right: 5em;
+  padding-left: 5em;
 }
 
 .HeroText {
@@ -49,7 +55,7 @@ header {
 .Logo {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 15rem;
   padding-bottom: 3em;
 }
@@ -62,4 +68,56 @@ button {
   text-align: center;
   font-size: medium;
   padding: 15px 40px;
+}
+
+.section01 {
+  background-color: black;
+  color: white;
+}
+
+.section01 article:first-of-type {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  text-align: left;
+  font-size: 60px;
+  padding-left: 1.4em;
+  padding-right: 4em;
+}
+
+.section01 article:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5em;
+}
+
+.section01 img {
+  object-fit: contain;
+  height: 70vh;
+}
+
+.InfoText {
+  padding-top: 5em;
+}
+
+.InfoText h2 {
+  font-family: "Inter";
+  font-size: 60px;
+}
+
+.InfoText p {
+  font-size: 15px;
+  padding-top: 1em;
+}
+
+.section03 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(1fr, 7);
+}
+
+.section02 img {
+  object-fit: contain;
+  height: 20vh;
 }
