@@ -16,3 +16,50 @@
 html {
   font-family: "WorkSans";
 }
+
+header {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-top: 10rem;
+}
+
+.HeroText {
+  margin-bottom: 3em;
+}
+
+.HeroText p {
+  font-size: small;
+}
+
+.HeroText h1 {
+  font-family: "Inter";
+  font-size: 60px;
+}
+
+.HeroText h1:last-of-type {
+  font-family: "Inter";
+  color: black;
+  font-size: 60px;
+  position: relative;
+  bottom: 0.4em;
+  -webkit-text-stroke: 1px white;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15rem;
+  padding-bottom: 3em;
+}
+
+button {
+  border: solid 1px white;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: medium;
+  padding: 15px 40px;
+}
