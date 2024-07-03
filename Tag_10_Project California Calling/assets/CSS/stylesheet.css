@@ -21,6 +21,8 @@ body {
   margin: 5em;
 }
 
+/*-----HEADER------*/
+
 header {
   text-align: center;
   color: white;
@@ -70,6 +72,8 @@ button {
   padding: 15px 40px;
 }
 
+/*-----section 01------*/
+
 .section01 {
   background-color: black;
   color: white;
@@ -111,13 +115,128 @@ button {
   padding-top: 1em;
 }
 
-.section03 {
+/*-----section 02------*/
+
+.section02 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(1fr, 7);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.section02 {
+  grid-template-areas:
+    "nix nix GridImg1 "
+    "GridImg2 nix nix"
+    "nix GridText1 nix"
+    "nix nix GridImg3"
+    "GridImg4 nix nix"
+    "nix nix GridImg5"
+    "GridImg6 GridText2 nix"
+    "nix nix GridImg7";
 }
 
 .section02 img {
   object-fit: contain;
-  height: 20vh;
+  height: 30vh;
+}
+
+/*-----section 03------*/
+
+.section03 {
+  background-color: black;
+  color: white;
+  padding-top: 5em;
+}
+
+.section03 > p {
+  padding-left: 15em;
+  padding-bottom: 1em;
+}
+
+.section03Text {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding-left: 15em;
+  padding-right: 5em;
+}
+
+.section03Text p {
+  padding-top: 2em;
+}
+
+.section03 img {
+  object-fit: contain;
+  height: 50vh;
+  padding-top: 5em;
+  padding-left: 12em;
+  padding-bottom: 1em;
+}
+
+.section03Text > h2 {
+  font-family: "Inter";
+  font-size: 60px;
+}
+
+/*-----section 04------*/
+
+.section04 {
+  padding-top: 5em;
+}
+
+.section04 > p {
+  padding-left: 15em;
+  padding-bottom: 1em;
+}
+
+.section04 img {
+  object-fit: contain;
+  height: 70vh;
+  padding-top: 5em;
+  padding-left: 12em;
+  padding-bottom: 2em;
+}
+
+.section04Text > h2 {
+  font-family: "Inter";
+  font-size: 60px;
+}
+
+.section04Text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15em;
+  padding-right: 5em;
+}
+
+.section04Text p {
+  padding-top: 2em;
+}
+
+/*-----FOOTER------*/
+
+Footer {
+  background-color: black;
+  color: white;
+  padding-top: 12rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.FooterPart1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*-----BANNER-----*/
+
+.Banner {
+  background-color: white;
+  height: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  width: 3000px;
 }
