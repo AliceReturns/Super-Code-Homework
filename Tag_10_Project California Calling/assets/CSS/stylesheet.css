@@ -235,6 +235,14 @@ Footer {
   padding-bottom: 1em;
 }
 
+.SocialMedia {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15em;
+  padding-right: 10em;
+  padding-top: 5em;
+}
+
 /*-----BANNER-----*/
 
 .Banner {
