@@ -239,4 +239,30 @@ Footer {
   transform: rotate(45deg);
   position: absolute;
   width: 3000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Banner-Content {
+  color: black;
+  font-family: "WorkSans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  animation: slide 10s linear infinite alternate;
+}
+
+.Banner-Content p {
+  font-size: 4rem;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-30%);
+  }
+  to {
+    transform: translate(30%);
+  }
 }
