@@ -1,20 +1,25 @@
 let score = 5 + 5 * 10;
 console.log("Ergebnis: " + score);
 
-let score2 = (5 + 5) * 10;
-console.log("Ergebnis: " + score2);
+let scoreTwo = (5 + 5) * 10;
+console.log("Ergebnis: " + scoreTwo);
 
-let score3 = 0;
-score3 = score3 + 10;
-console.log("Ergebnis: " + score3);
+let scoreThree = 0;
+scoreThree = scoreThree + 10;
+console.log("Ergebnis: " + scoreThree);
 
-let score4 = 10;
-console.log("Ergebnis: " + score4);
+let scoreFour = 10;
+scoreFour = scoreFour + 10;
+console.log("Ergebnis: " + scoreFour);
 
-//
+//INCREMENT
 
-//2++;
-//console.log("increment: " + 2);
+three = 3;
+three++;
+console.log("increment: " + three);
 
-//5--;
-//console.log("dekrement: " + 5);
+//DEKREMENT
+
+four = 4;
+four--;
+console.log("dekrement: " + four);
