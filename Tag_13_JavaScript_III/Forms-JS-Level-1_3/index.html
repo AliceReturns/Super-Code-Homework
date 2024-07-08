@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/CSS/stylesheet.css" />
+    <title>Form Level 1-3</title>
+  </head>
+
+  <body>
+    <form onsubmit="return false;">
+      <label for="age">Alter 1</label>
+      <input type="number" id="Alter1" /><br />
+      <label for="age">Alter 2</label>
+      <input type="number" id="Alter2" /><br />
+      <button onclick="ageCompare()">Berechnen !</button>
+      <!--Die Funktion wird mit dem Button ausgelöst-->
+      <p>Die Differenz ist:</p>
+      <p class="age_output"></p>
+    </form>
+    <script src="./assets/JS/main.js"></script>
+  </body>
+</html>

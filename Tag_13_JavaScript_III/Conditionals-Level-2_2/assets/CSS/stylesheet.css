@@ -1,0 +1,6 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 20em 30em 5em 30em;
+}
