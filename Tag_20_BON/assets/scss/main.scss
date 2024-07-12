@@ -1,0 +1,190 @@
+@use "Modules/header";
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+html {
+  font-family: "Ubuntu";
+}
+
+.facilities {
+  h2 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 30px;
+    color: #957554;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 2.5em;
+    margin: 0 15em 0 15em;
+
+    p {
+      color: #957554;
+    }
+  }
+}
+
+.roomsAndRates {
+  margin-top: 5em;
+  font-size: 20px;
+
+  h2 {
+    text-align: center;
+    align-items: center;
+    color: #957554;
+  }
+
+  .imageGallery {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 200px;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin-top: 2.5em;
+    color: white;
+  }
+
+  .Twin {
+    background-image: url(../img/standard_twin_room.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    button {
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      background-color: #dfaa5b;
+      color: white;
+      padding: 1.5em 4em;
+    }
+  }
+  .Standard {
+    background-image: url(../img/standard_room.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    button {
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      background-color: #dfaa5b;
+      color: white;
+      padding: 1.5em 4em;
+    }
+  }
+  .View {
+    background-image: url(../img/standard_view_room.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    button {
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      background-color: #dfaa5b;
+      color: white;
+      padding: 1.5em 4em;
+    }
+  }
+  .Deluxe {
+    background-image: url(../img/deluxe_room.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    button {
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      background-color: #dfaa5b;
+      color: white;
+      padding: 1.5em 4em;
+    }
+  }
+}
+
+.getRoom {
+  text-align: center;
+  align-items: center;
+  color: #957554;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  button {
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #dfaa5b;
+    color: white;
+    padding: 1.5em 10em;
+    margin-top: 2.5em;
+  }
+}
+
+footer {
+  background-color: #111111;
+  color: white;
+  margin-top: 4em;
+  padding-bottom: 7em;
+
+  .Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 5em;
+  }
+
+  .adress {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      padding-bottom: 5em;
+    }
+  }
+  .linksFooter {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      padding-bottom: 2em;
+      text-decoration: none;
+      color: white;
+    }
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      padding-bottom: 0.5em;
+    }
+
+    input {
+      border: none;
+      border-radius: 5px;
+      padding: 1.5em 4em;
+      margin-top: 1em 2.5em 1em 2.5em;
+    }
+
+    button {
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      background-color: #dfaa5b;
+      color: white;
+      padding: 1.5em 6.9em;
+      margin-top: 2.5em;
+    }
+  }
+}
